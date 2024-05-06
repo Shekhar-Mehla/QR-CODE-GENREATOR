@@ -1,0 +1,46 @@
+.inputbox {
+  margin-right: 5px;
+}
+.row2 {
+  margin-top: 100px;
+}
+.imgcontainer {
+  height: 200px;
+  width: 200px;
+  display: none;
+}
+.imgcontainer img {
+  height: 100%;
+  width: 100%;
+}
+
+.inputanimation {
+  animation: move 0.3s ease-out 5;
+  background-color: red;
+  color: white;
+  padding-left: 30px;
+}
+@keyframes move {
+  0% {
+    transform: translateX(2px);
+    transform: translatey(2px);
+  }
+
+  40% {
+    transform: translateX(0px);
+    transform: translatey(-2px);
+  }
+
+  100% {
+    transform: translateX(2px);
+    transform: translatey(0px);
+  }
+}
+.hide {
+  display: none;
+  border: none;
+  outline: none;
+}
+.display {
+  display: block;
+}
