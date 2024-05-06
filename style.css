@@ -1,5 +1,6 @@
 .inputbox {
   margin-right: 5px;
+  height: 40px;
 }
 .row2 {
   margin-top: 100px;
@@ -43,4 +44,9 @@
 }
 .display {
   display: block;
+}
+@media (max-width: 770px) {
+  .inputbox {
+    margin-bottom: 10px;
+  }
 }
